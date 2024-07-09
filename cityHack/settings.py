@@ -25,6 +25,13 @@ SECRET_KEY = 'django-insecure-%ca-u8y==ls78(y^-4o&=iludcm$m*=i%zp!k!a43wa#*p&vxa
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+SECURE_HSTS_SECONDS = 3600  # Set the desired value in seconds
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_HSTS_PRELOAD = True
+
 ALLOWED_HOSTS = ["*"]
 CORS_ALLOWED_ORIGINS = ['http://*', 'https://*']
 
