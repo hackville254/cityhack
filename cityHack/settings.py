@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%ca-u8y==ls78(y^-4o&=iludcm$m*=i%zp!k!a43wa#*p&vxa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 SECURE_HSTS_SECONDS = 3600  # Set the desired value in seconds
 SECURE_SSL_REDIRECT = True
