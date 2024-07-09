@@ -6,7 +6,9 @@ django-jazzmin==3.0.0
 django-ninja==1.2.1
 dnspython==2.6.1
 email_validator==2.2.0
+gunicorn==22.0.0
 idna==3.7
+packaging==24.1
 pillow==10.4.0
 pydantic==2.8.2
 pydantic_core==2.20.1
